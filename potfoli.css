@@ -208,58 +208,8 @@ button:hover {
 
 
 
-.social-buttons {
-  display: flex;
-  gap: 10px;
-  margin-top: 20px;
-}
-
-.btn {
-  text-decoration: none;
-  color: white;
-  padding: 10px;
-  border-radius: 50%;
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  transition:0.3s ease;
-}
-
-.facebook { background: #3b5998; }
-.twitter  { background: #1da1f2; }
-.instagram{ background: #e1306c; }
-.linkedin { background: #0077b5; }
-
-.btn:hover {
-  opacity: 0.8;
-}
-
-.btn-insta {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  background-color: #e1306c;
-  color: white;
-  text-decoration: none;
-  padding: 10px 16px;
-  border-radius: 8px;
-  font-size: 16px;
-  transition:  0.3s ease;
-}
-
-.btn-insta img {
-  width: 24px;
-  height: 24px;
-}
-
-.btn-insta:hover {
-  background-color: #c02f5c;
-}
  
-
+ */
 
 
 
