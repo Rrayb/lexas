@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+
+.main{
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.bar .logo{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 15px 9%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bar ul{
+    display: flex;
+    margin-top:2%;
+    gap: 15px;
+    flex-wrap: nowrap;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 35px;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: blanchedalmond;
+    /* margin-top: -3%; */
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+ul li a:hover{
+    color: darkslateblue;
+
+
+}
+.HOME{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    padding-top: 50px 9% 0;
+    color:#fff;
+}
+.Home-info h1{
+    font-size: 55px;
+   
+}
+.Home-info h2{
+    font-size: 32px;
+    margin-top: -10px;
+    color: darkorchid;
+}
+.Home-info p{
+    font-size: 16px;
+    margin: 10px 0 25px;
+}
+.Home-info h1 .btn-sci{
+    display: flex;
+    align-items: center;
+}
+.btncv {
+    display: inline-block;
+    padding: 10px  30px;
+    background: darkorchid;
+    border: 2px solid rebeccapurple;
+    border-radius: 40px;
+    box-shadow: 0 0 10px darkorchid;
+    font-size: 16px ;
+    color: #000;
+    font-weight: 600;
+    transition: .5s;
+    text-decoration: none;
+}
+.btncv:hover{
+    background: transparent;
+    color:darkorchid;
+    box-shadow: none;
+    
+
+
+}
+
+  /*css pour le bouton quiter*/
+
+button {
+    position: fixed;
+    background: darkorchid;
+    border: 2px solid rebeccapurple;
+    border-radius: 40px;
+    box-shadow: 0 0 10px darkorchid;
+    font-size: 16px ;
+    color: black;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .5s;
+    text-decoration: none;
+    z-index: 999;
+    right: 100px;
+}
+
+button:hover {
+  
+  background: transparent;
+  border-radius:darkorchid ;
+  background-color: white;
+  box-shadow: none;
+}
+
+
+
+/**/
+
+
+.scroll {
+    position: fixed;
+    background: darkorchid;
+    border: 2px solid rebeccapurple;
+    border-radius: 40px;
+    box-shadow: 0 0 10px darkorchid;
+    font-size: 16px ;
+    color: black;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .5s;
+    text-decoration: none;
+    z-index: 999;
+    right: 100px;
+    position: absolute;
+}
+
+.scroll:hover {
+  
+  background: transparent;
+  border-radius:white ;
+  background-color:black;
+  box-shadow: none;
+  color: darkorchid;
+}
+
+
+
+.social-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  transition:0.3s ease;
+}
+
+.facebook { background: #3b5998; }
+.twitter  { background: #1da1f2; }
+.instagram{ background: #e1306c; }
+.linkedin { background: #0077b5; }
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn-insta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #e1306c;
+  color: white;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition:  0.3s ease;
+}
+
+.btn-insta img {
+  width: 24px;
+  height: 24px;
+}
+
+.btn-insta:hover {
+  background-color: #c02f5c;
+}
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+
+
+
+
+    .skills {
+      background: darkorchid;
+      max-width: 600px;
+      width: 100%;
+      padding: 30px 40px;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .skills h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: black;
+    }
+
+    .skill-list {
+      list-style: none;
+    }
+
+    .skill-list li {
+      padding: 10px 15px;
+      margin-bottom: 10px;
+      background: #f0f0f0;
+      border-left: 5px solid violet;
+      border-radius: 5px;
+      font-size: 1.1rem;
+    }
+
+
+
+
+
+  .presentation {
+    background: blueviolet;
+    max-width: 600px;
+    width: 100%;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+
+  .presentation h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color:black ;
+  }
+  .presentation p {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    color: white;
+  }
+
+
+
+
+
+  
+/* Responsive simple sans colonne */
+@media (max-width: 768px) {
+  .bar {
+    padding: 10px 5%;
+    flex-wrap: nowrap;
+  }
+
+  .bar ul {
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+
+  .bar ul li a {
+    font-size: 13px;
+    padding: 4px;
+  }
+
+  .bar .logo {
+    font-size: 16px;
+  }
+
+  .Home-info h1 {
+    font-size: 28px;
+  }
+
+  .Home-info h2 {
+    font-size: 16px;
+  }
+
+  .Home-info p {
+    font-size: 14px;
+    padding: 0 4%;
+  }
+
+  .skill-list li {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+}
