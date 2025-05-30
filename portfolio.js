@@ -13,10 +13,4 @@
   // }
 
 
-  const hamMenu= document.querySelector('.hammenu');
-  const offScreen = document.querySelector('.offscreen');
-  hamMenu.addEventListener('click',()=>{
-  hamMenu.classList.toggle('active');
 
-  }
-)
