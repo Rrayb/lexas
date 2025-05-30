@@ -47,6 +47,66 @@ body{
 
 
 
+.offscreen{
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  max-width: 450px;
+  position: fixed;
+  top: 0;
+  right: -450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+  transition: .3s ease;
+}
+.offscreen.active{
+  right: 0;
+}
+nav{
+  padding: 1rem;
+  display: flex;
+  background-color: #c02f5c;
+}
+.hammenu{
+  height: 50px;
+  width: 50px;
+  margin-left: auto;
+  position: relative;
+
+}
+.hammenu span{
+  height: 5px;
+  width: 100%;
+  background-color: #3b5998;
+  border-radius: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  transition: .3s ease;
+}
+.hammenu span::nth-child(1){
+  top: 25%;
+
+}
+.hammenu span::nth-child(3){
+  top: 75%;
+}
+.hammenu .active span:nth-child(1){
+  top: 50%;
+  transform: translate(-50% ,-50%) rotate(45deg);
+}
+.hammenu .active span:nth-child(2){
+  opacity: 0;
+}
+.hammenu .active span:nth-child(3){
+  top: 50%;
+  transform: translate(-50%,50%) rotate(-45deg);
+}
 
 
 
