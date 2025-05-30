@@ -8,7 +8,15 @@
         window.location.href = "https://www.google.fr";
       }, 500);
     }
-   function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
+  //  function scrollToTop() {
+  //   window.scrollTo({ top: 0, behavior: "smooth" });
+  // }
 
+
+  const hamMenu= document.querySelector('.hammenu');
+  const offScreen = document.querySelector('.offscreen');
+  hamMenu.addEventListener('click',()=>{
+  hamMenu.classList.toggle('active');
+
+  }
+)
