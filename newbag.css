@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+}
+
+
+
+
+
+.main{
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.bar .logo{
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    padding: 15px 9%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+    
+
+
+
+
+.bar ul{
+    display: flex;
+    margin-top:2%;
+    gap: 15px;
+    flex-wrap: nowrap;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 35px;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: blanchedalmond;
+    /* margin-top: -3%; */
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+ul li a:hover{
+    color: darkslateblue;
+}
+
+
+
+
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+
+.p{
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: right;
+}
+section{
+    margin-right: 200px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 50%;
+    background-color: blueviolet;
+    padding: 30px;
+    border-radius: 20px;
+}
+.container{
+    width: 100%;
+    background-color:#ddd;
+    overflow: hidden;/*pour que les élément contenu dans cette barre ne dépasse pas*/
+
+}
+.Skills{
+    text-align: right;
+    padding-right: 20px;
+    color :white;
+}
+.html{
+    width: 90%;
+    background-color: orangered;
+    animation:animation1 3s ease-in-out  forwards ;
+}
+@keyframes animation1{
+    0%{
+       width: 0;
+       margin-left:-50px; 
+    }
+    
+        100%{
+            width: 90%;
+        }
+}
+.css{
+    width: 70%;
+    background-color: cornflowerblue;
+    animation:animation2 3s ease-in-out  forwards ;
+}
+@keyframes animation2{
+    0%{
+       width: 0;
+       margin-left:-50px; 
+    }
+    
+        100%{
+            width: 70%;
+        }
+}
+.js{
+    width: 50%;
+    background-color: yellow;
+    animation:animation3 3s ease-in-out  forwards ;
+}
+@keyframes animation3{
+    0%{
+       width: 0;
+       margin-left:-50px; 
+    }
+    
+        100%{
+            width: 50%;
+        }
+}
+.python{
+    width: 55%;
+    background-color: darkkhaki;
+    animation:animation4 3s ease-in-out  forwards ;
+}
+@keyframes animation4{
+    0%{
+       width: 0;
+       margin-left:-50px; 
+    }
+    
+        100%{
+            width: 55%;
+        }
+}
+.c{
+    width: 45%;
+    background-color: blue;
+    animation:animation5 3s ease-in-out  forwards ;
+}
+@keyframes animation5{
+    0%{
+       width: 0;
+       margin-left:-50px; 
+    }
+    
+        100%{
+            width: 45%;
+        }
+}
+.php{
+    width: 40%;
+    background-color: darkmagenta;
+    animation:animation6 3s ease-in-out  forwards ;
+}
+@keyframes animation6{
+    0%{
+       width: 0;
+       margin-left:-50px; 
+    }
+    
+        100%{
+            width: 40%;
+        }
+}
