@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="barre_de_progression.css">
+   
+    <title>js</title>
+</head>
+<body>
+    <div class="main">
+        <div class="bar">
+            <a href="#" class="logo">Ray.</a>
+             <ul>
+                <li><a href="HOME.html">Home</a></li>
+                <li><a href="BAG.html">Compétences</a></li>
+                <li><a href="A PROOPOS.html">A propos</a></li>
+                <li><a href="MEcontactez.html">contact</a></li>
+              </ul>
+        </div>
+    </div>
+         <section>
+            
+
+         
+        <p>html</p>
+        <div class="container">
+            <div class="Skills 
+            html">90</div>
+        </div>
+          <p>css</p>
+        <div class="container">
+            <div class="Skills 
+            css">70</div>
+        </div>
+
+        <p>javascript</p>
+        <div class="container">
+            <div class="Skills 
+            js">50</div>
+        </div>
+          <p>python</p>
+        <div class="container">
+            <div class="Skills 
+            python">55</div>
+        </div>
+
+          <p>c</p>
+        <div class="container">
+            <div class="Skills 
+            c">45</div>
+        </div>
+    
+       <p>php</p>
+        <div class="container">
+            <div class="Skills
+            php">40</div>
+        
+    
+    
+    </section>
+        
+   
+    </div>
+   
+    <script src="barrede.js"></script>
+</body>
+</html>
