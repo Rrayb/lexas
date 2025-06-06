@@ -1,28 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="potfoli.css">
-    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-">
-    <script src="portfolio.js"></script>
-    <title>portfolio</title>
-</head>
-<body>
-    <div class="main">
-        <div class="bar">
-            <a href="#" class="logo">Ray.</a>
-             <ul>
-                <li><a href="HOME.html">Home</a></li>
-                <li><a href="newbag.html">Compétences</a></li>
-                <li><a href="A PROOPOS.html">A propos</a></li>
-                <li><a href="MEcontactez.html">contact</a></li>
-              </ul>
-        </div>
-    </div>
-   <section class="HOME">
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="menu.css">
+
+      <title>navbar</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">Ray</a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="HOME.html" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Home</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="A PROOPOS.html" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>About</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="BAG.html" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>skill</span>
+                     </a>
+                  </li>
+
+                 
+
+                  <li class="nav__item">
+                     <a href="MEcontactez.htm" class="nav__link">
+                        <i class="ri-arrow-right-up-line"></i>
+                        <span>Contact</span>
+                     </a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-large-line"></i>
+               </div>
+
+               <div class="nav__social">
+                  <a href="https://www.instagram.com/rray__23?igsh=MTg2eHJ3aXU1am1rbQ%3D%3D&utm_source=qr" target="_blank" class="nav__social-link">
+                     <i class="ri-instagram-line"></i>
+                  </a>
+
+                  <a href="https://github.com/" target="_blank" class="nav__social-link">
+                     <i class="ri-github-line"></i>
+                  </a>
+
+                  
+               </div>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i></div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main>
+         <!-- Insert page sections -->
+      </main>
+      
+      <!--=============== MAIN JS ===============-->
+      <script src="MENU.js"></script>
+
+
+       <section class="HOME">
         <div class="Home-info">
+            <br><br><br>
             <h1>R-Ray </h1>
             <h2>young dude do some html and css shi </h2>
             <p>Lorem ipsum dolor sit amet, 
@@ -34,21 +98,16 @@
                  deleniti necessitatibus?</p>
                 <div class="btn-sci">
                    <a href="CV_Raymond_Boubanga.pdf" class="btncv">Download CV</a>
-<!--                    <div class="social-buttons">
-                        <a href="https://twitter.com/@Raymond1of1" class="btn twitter" target="_blank"><i class="fab fa-x-twitter"></i></a>
-                        <a href="https://instagram.com/ton_insta" target="_blank" class="btn-insta">  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
+                
 
-</a>
-                        <a href="https://linkedin.com/in/tonprofil" class="btn linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
- -->
                 </div>
         </div>
 
    </section>
    <button onclick="quitterSite()">Quitter le site</button>
-<!--     <button class="scroll" onclick="scrollToTop()">remonte</button> -->
-    
+   
 
-</body>
+
+
+   </body>
 </html>
